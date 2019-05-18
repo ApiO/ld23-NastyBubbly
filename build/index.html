@@ -1,0 +1,77 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Nasty Bubbly</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css?v2">
+	<script src="js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<div id="main-wrapper">
+		<header class="clearfix">
+			<hgroup id="main-title">
+				<h1>Ludum Dare 23</h1>
+				<h2>Nasty Bubbly</h2>
+			</hgroup>
+		</header>
+		
+		<div role="main" class="clearfix">
+			<div id="gameContainer">
+				<div id="altContent">
+					<p><a href="http://www.adobe.com/go/getflashplayer"><img 
+						src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" 
+						alt="Get Adobe Flash player" /></a></p>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="clearfix">
+			<p id="controls">
+				<span class="key up ir">KEY UP</span>
+				<span class="key down ir">KEY UP</span>
+				<span class="key-def">to move up and down,</span>
+				<span class="key spacebar ir">SPACEBAR</span>
+				<span class="key-def">to boost.</span>
+			<ul id="footer-links">
+				<li><a href="http://www.ludumdare.com/compo/author/dr-pingu/">Journal</a></li>
+				<li><a href="http://www.ludumdare.com/compo/ludum-dare-23/?action=preview&uid=12088">Submission page</a></li>
+			</ul>
+		</footer>
+	</div>
+	<script src="js/plugins.js"></script>
+	<script src="js/swfobject.js"></script>
+	<script type="text/javascript">
+		var flashvars = {
+		};
+		var params = {
+			menu: "false",
+			scale: "noScale",
+			allowFullscreen: "true",
+			allowScriptAccess: "always",
+			bgcolor: "#202020"
+		};
+		var attributes = {
+			id:"LudumDare23"
+		};
+		swfobject.embedSWF("LudumDare23.swf", "altContent", "640px", "480px", "10.0.0", "expressInstall.swf", flashvars, params, attributes);
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-29656747-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</body>
+</html>

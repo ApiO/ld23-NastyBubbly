@@ -1,0 +1,48 @@
+<level>
+	<width>8000</width>
+	<height>480</height>
+	<backdrops>
+		<backdrop texture="aquarium-background" repeatX="true" repeatY="false" scrollX="0"/>
+		<backdrop texture="aquarium-horizon" repeatX="true" repeatY="false"  scrollX="0.5" />
+		<backdrop texture="aquarium-ground" repeatX="true" repeatY="false"  scrollX="1" y="200" />
+	</backdrops>
+	<objects>
+		<sign x="400" y="200" />
+		<pillar x="1000" difficulty="1" capped="false" top="true" />
+		<pillar x="1800" difficulty="0.8" capped="true" top="false" />
+		<pillar x="2300" difficulty="0.7" capped="false" top="true" />
+		<pillar x="3000" difficulty="0.5" capped="false" top="true" />
+		<pillar x="3500" difficulty="1" capped="true" top="false" />
+		<pillar x="4000" difficulty="0.8" capped="false" top="true" />
+		<pillar x="4500" difficulty="0.6" capped="true" top="false" />
+		<pillar x="5000" difficulty="0.7" capped="true" top="false" />
+		<pillar x="5500" difficulty="1" capped="false" top="true" />
+		<pillar x="6000" difficulty="1" capped="true" top="false" />
+		<pillar x="6300" difficulty="0.9" capped="true" top="false" />
+		<treasure x="7000" y="360" />
+		<pillar x="7400" difficulty="1" capped="true" top="false" />
+		<pillar x="8000" difficulty="1" capped="false" top="true" />
+		<coral x="450" y="300" scale="0.8" color="yellow" />
+		<coral x="480" y="290" scale="1" color="red" />
+		<coral x="700" y="280" scale="1" color="magenta" />
+		<coral x="900" y="300" scale="1.8" color="green" />
+		<coral x="1100" y="380" scale="2.3" color="violet" />
+		<coral x="1280" y="200" scale="2" color="magenta" />
+		<coral x="1400" y="380" scale="1.5" color="blue" />
+		<coral x="1800" y="200" scale="1.9" color="yellow" />
+		<coral x="1810" y="400" scale="2" color="violet" />
+		<coral x="1900" y="380" scale="0.3" color="black" />
+		<coral x="2300" y="300" scale="1" color="red" />
+		<coral x="2840" y="300" scale="0.9" color="red" />
+		<coral x="2990" y="390" scale="2.3" color="violet" />
+		<coral x="3800" y="500" scale="1" color="black" />
+		<coral x="3970" y="300" scale="1.3" color="red" />
+		<coral x="5600" y="290" scale="1" color="red" />
+		<coral x="5750" y="250" scale="1.8" color="green" />
+		<coral x="6000" y="300" scale="1" color="violet" />
+		<coral x="6480" y="300" scale="1" color="magenta" />
+		<coral x="6903" y="300" scale="1" color="blue" />
+		<coral x="7000" y="300" scale="1" color="yellow" />
+		<coral x="8000" y="300" scale="1" color="violet" />
+	</objects>
+</level>

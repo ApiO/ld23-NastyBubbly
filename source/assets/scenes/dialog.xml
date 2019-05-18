@@ -1,0 +1,39 @@
+<dialog>
+	<introduction>
+		<text delay="4">This is Bubbly !</text>
+		<text delay="6">King of the Bowl,
+he spend his days eating and sleeping ... Getting slothful.
+But this tiny world of laziness is coming to its end !</text>
+		<text delay="12">Under the pretext of Bubbly's ugliness and the bowl's stench,
+Ashley-Amber, the 11 years old owner
+decided to throw it away and recycle the aquarium
+into a window box.</text>
+		<text delay="4">Our hero, aware of the situation,
+is now planning something treacherous to swim away ...</text>
+	</introduction>
+	<gameover>
+		<text delay="10">... it's finally in a trash that Bubbly ended,
+taking the sweetest nap ever.
+
+Rest in pieces, Hero.</text>
+	</gameover>
+	<gameend>
+		<text delay="12">... it's finally using it's evil mind,
+changing its bowl's water in a complex ecosystem
+only equaling its own stench,
+that Bubbly get thrown in the toilets !</text>
+		<text delay="8">Now our Hero is free
+and introduce itself to the local faun ...</text>
+		<text delay="5">BUT !</text>
+		<text delay="10">Crabby the crab, king of the sewer of the
+1600 Pennsylvania Avenue Northwest
+is ready to conquer the district !</text>
+		<text delay="8">To Be Continued...</text>
+	</gameend>
+	<girldialog>
+		<text delay="4">Stop it Bubbly!</text>
+		<text delay="4">Bad fish!</text>
+		<text delay="4">Raaaaank!</text>
+		<text delay="4">- Chucking -</text>
+	</girldialog>
+</dialog>
