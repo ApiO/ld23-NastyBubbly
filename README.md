@@ -6,6 +6,8 @@ _Nasty Bubbly - 72 Hour JAM Entry_
 
 See: http://ludumdare.com/compo/ludum-dare-23/?action=preview&uid=12088
 
+To play just clone the repo and open the file `build/index.html`
+
 ## Controls: 
 - UP and DOWN Arrows: Move the fish well, Up and down. 
 - SPACEBAR: Speed boost. 
