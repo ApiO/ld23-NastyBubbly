@@ -15,3 +15,9 @@ You must use the boost to go faster and pollute the bowl at the same time, avoid
 The fish food increase your boost bar. 
 
 Enjoy, and for the love of nature, save this goldfish's life ! Just a question of Karma.
+
+## Stuff
+
+- Coding: AS3, Flashdevelop, Flashpunk, Box2D
+- Graphics: Photoshop & Paint (98%)
+- Sound: Ableton Live 8
